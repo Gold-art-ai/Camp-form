@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🌟Light</title>
+    <link rel="stylesheet" href="light.css">
+</head>
+<body>
+    <form action="camp.php" method="POST">
+        <div class="input">
+            <h2>2024-2025 Light Summer Camp Intake.</h2>
+        
+            <p>Please fill the form and ensure that the info are relevant to ones you used during the application.</p>
+            <fieldset>
+                <legend>Applicant's information</legend>
+            <div class="box">
+            <input type="text" id="fname" placeholder="Firstname" name="fname"><br><br>
+            </div>
+
+            <input type="text" id="fname" placeholder="Middle name" name="mname"><br><br>
+            <input type="text" id="fname" placeholder="Lastname" name="lname"><br><br>Birthday:
+            <input type="date" id="fname" placeholder="Age" name="age" min="1" max="18"><br><br>
+            Gender:
+            <input type="radio" id="fname" name="F" value="Male" checked >Male
+            <input type="radio" id="fname" name="F" value="Female" checked>female<br><br>
+            <input type="email" id="fname" placeholder="Email" name="email"><br><br>
+            <input type="password" id="fname" placeholder=" Login Password used" name="pass" maxlength="6" minlength="6" required><br><br>
+            <input type="text"  id="fname" placeholder="School" name="scl"><br><br>
+            <input type="text" id="fname" placeholder="Grade" name="grade" autocomplete="on"><br><br>
+            <Input type="text" id="fname" placeholder="Father's name" name="fnam">
+            <input type="number" id="fname" placeholder="Father's Phone number" name="fnum" ><br>
+            <Input type="text" id="fname" placeholder="Mom's name" name="Mnam">
+            <input type="number" id="fname" placeholder="Mom's Phone number" name="Mnum"><br>
+            <input type="text" list="talents" id="fname" name="talents" placeholder="Talents" readonly>
+            <datalist id="talents" name="talents">
+                <option value="dancing">dancing</option>
+                <option value="singing">singing</option>
+                <option value="designing">designing</option>
+                <option value="running">Running</option>
+                <option value="other">Other</option>
+            </datalist><br> Rate your communication skills <br>
+            <input type="range" name="range" min="0" max="100"><br>
+            Upload the essays used during application:
+            <input type="file"id="fname" name="files" multiple>
+
+
+             
+                       
+        </fieldset>
+            <br><fieldset>
+                <legend>Additional information</legend>
+                <input type="checkbox" id="me" name="pre" value="present" >
+                <label for="me">Last session was really interesting.<br>
+            </label>
+                
+            Home Address<br>  
+            <select id="fname" name="cont">
+                <option value="Africa">Africa</option>
+                <option value="Europe">Europe</option>
+                <option value="Asia">Asia</option>
+                <option value="Russia">Russia</option>
+                <option value="America">America</option>
+            </select>
+            <input type="text" id="fname" placeholder="Country" name="country"><br>
+            Drop your comment down here for improvement.<br>
+            <textarea name="comnt" id="text" placeholder="Comment" name="comm"></textarea><br>
+            Choose the color of your T-shirt for this comming Camp: 
+            <input type="color" id="fname" name="color">
+            </fieldset>
+            <button type="submit" id="fname">Send</button>
+            <button type="reset" id="fname">Clear</button>
+        </div>
+        </div>
+    </form>
+</body>
+</html>
